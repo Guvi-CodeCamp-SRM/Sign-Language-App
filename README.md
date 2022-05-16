@@ -32,9 +32,9 @@ This app helps users learn sign language. It includes 24 alphabets signs and fea
 
 ## Collaborators 🤖
 
-| Name      | GitHub Profile     |   |
+| Name      | GitHub Profile     | Tech Stack  |
 | :------------- | :----------: | :----------: |
-|  Chetas Shree Madhusudhan   | [GitHub](https://github.com/ChetasShree) |  Tech Associate / Flutter |
+|  Chetas Shree Madhusudhan   | [GitHub](https://github.com/ChetasShree) |  Flutter (Tech Associate) |
 |  Aluru Leela   | [GitHub](https://github.com/LEELARANIALURU) |  AI/ML |
 |  Aryaman Shrivastava   | [GitHub](https://github.com/aryamanshrivastava) | Flutter |
 |  Routhu Manoj   | [GitHub](https://github.com/Manoj-Routhu) |  AI/ML |
