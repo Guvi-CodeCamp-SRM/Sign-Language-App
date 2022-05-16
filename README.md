@@ -1,6 +1,8 @@
 # Sign Language App 👐👋🤘
 
-![original-5965121-1](https://user-images.githubusercontent.com/75165587/168610240-e7cdd703-1769-4209-a2bf-47bba71382be.jpg)
+<!-- ![original-5965121-1](https://user-images.githubusercontent.com/75165587/168610240-e7cdd703-1769-4209-a2bf-47bba71382be.jpg) -->
+
+![Capture](https://user-images.githubusercontent.com/75165587/168613063-cfdf77ba-7771-4594-b46c-f555d827eec6.PNG)
 
 
 ## Tech Stack 🔨
