@@ -30,7 +30,7 @@ This app helps users learn sign language. It includes 24 alphabets signs and fea
 | Name      | GitHub Profile     |   |
 | :------------- | :----------: | :----------: |
 |  Chetas Shree Madhusudhan   | [GitHub](https://github.com/ChetasShree) |  Tech Associate / Flutter |
-|  Aluru Leela   | [GitHub](https://www.github.com/gyanesh-samanta-123) |  AI/ML |
-|  Aryaman Shrivastava   | [GitHub](https://github.com/Eshaan-B) | Flutter |
-|  Routhu Manoj   | [GitHub](https://github.com/Eshaan-B) |  AI/ML |
+|  Aluru Leela   | [GitHub](https://github.com/LEELARANIALURU) |  AI/ML |
+|  Aryaman Shrivastava   | [GitHub](https://github.com/aryamanshrivastava) | Flutter |
+|  Routhu Manoj   | [GitHub](https://github.com/Manoj-Routhu) |  AI/ML |
 
