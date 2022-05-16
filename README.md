@@ -1,5 +1,8 @@
 # Sign Language App 👐👋🤘
 
+![original-5965121-1](https://user-images.githubusercontent.com/75165587/168610240-e7cdd703-1769-4209-a2bf-47bba71382be.jpg)
+
+
 ## Tech Stack 🔨
   - Python
   - Dart / Flutter  
