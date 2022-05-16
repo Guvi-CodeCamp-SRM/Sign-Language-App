@@ -1,6 +1,6 @@
 # Sign Language App 👐👋🤘
 
-## Tech Stack used :- 
+## Tech Stack 🔨
   - Python
   - Dart / Flutter  
 
@@ -8,7 +8,7 @@
 It was very difficult for the Deaf community or people with hearing loss to communicate or learn alphabets through the sign language they know or for sounded people to know what sign language hand expression means which letter. So we built this user friendly moblie application to eradict and make a bridge for the deaf community and with no hearing loss people to communicate.
 
 
-## What is the project about 🔨
+## What is the project about 🔧
 Do you want to learn how to communicate with the Deaf community or people with hearing loss who may use ***American Sign Language (ASL)*** ? Or interested in learning a new language? Learning sign language is easier than ever, thanks to the internet. Just like so many other things, there’s an app for that. This app will help you learn American Sign Language (ASL).
 
 
