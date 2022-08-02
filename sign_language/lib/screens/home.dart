@@ -1,6 +1,4 @@
-// ignore_for_file: prefer_const_constructors, avoid_unnecessary_containers
 import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:tflite/tflite.dart';
@@ -19,14 +17,12 @@ class _HomePageState extends State<HomePage> {
   late File _image;
   late List _output;
   final picker = ImagePicker();
-@override
-void initState() {
-  super.initState();
-  loadModel().then((value){
-    setState(() {
-      
+  @override
+  void initState() {
+    super.initState();
+    loadModel().then((value) {
+      setState(() {});
     });
-  });
   }
 
   detectImage(File image) async {
@@ -46,30 +42,33 @@ void initState() {
   loadModel() async {
     await Tflite.loadModel(
       model: "assets/predmodel.tflite",
-      labels: "",
+      //labels: "",
     );
   }
+
   @override
-  void dispose(){
+  void dispose() {
     super.dispose();
   }
 
-  pickImage()async{
+  pickImage() async {
     var image = await picker.pickImage(source: ImageSource.camera);
-    if(image == null) return null;
+    if (image == null) return null;
     setState(() {
       _image = File(image.path);
     });
     detectImage(_image);
   }
-  pickgalleryImage()async{
+
+  pickgalleryImage() async {
     var image = await picker.pickImage(source: ImageSource.gallery);
-    if(image == null) return null;
+    if (image == null) return null;
     setState(() {
       _image = File(image.path);
     });
     detectImage(_image);
   }
+
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -92,28 +91,36 @@ void initState() {
                     fontSize: 42,
                     fontWeight: FontWeight.bold)),
             SizedBox(height: size.height * 0.05),
-            Center(child: _loading ? SizedBox(
-              width: 350,
-              child: Column(
-                children: [
-                  Image.asset("assets/gif.gif"),
-                  SizedBox(height: size.height * 0.05),
-                ],
-              ),
-            ):Container(
-              child: Column(
-                children: [
-                  SizedBox(
-                    height: 250,
-                    child: Image.file(_image),
-                  ),
-                  SizedBox(height: size.height * 0.05),
-                  // ignore: unnecessary_null_comparison
-                  _output != null ? Text('${_output[0]['label']}',style: TextStyle(color: Colors.white,fontSize: 15),):Container(),
-                  SizedBox(height: size.height * 0.05),
-                ],
-              ),
-            )),
+            Center(
+                child: _loading
+                    ? SizedBox(
+                        width: 350,
+                        child: Column(
+                          children: [
+                            Image.asset("assets/gif.gif"),
+                            SizedBox(height: size.height * 0.05),
+                          ],
+                        ),
+                      )
+                    : Container(
+                        child: Column(
+                          children: [
+                            SizedBox(
+                              height: 250,
+                              child: Image.file(_image),
+                            ),
+                            SizedBox(height: size.height * 0.05),
+                            _output != null
+                                ? Text(
+                                    '${_output[0]['label']}',
+                                    style: TextStyle(
+                                        color: Colors.white, fontSize: 15),
+                                  )
+                                : Container(),
+                            SizedBox(height: size.height * 0.05),
+                          ],
+                        ),
+                      )),
             Center(
               child: Padding(
                 padding:
